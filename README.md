@@ -2,11 +2,15 @@
 
 **Describe your product. Get a narrated demo video.**
 
-DemoVox is an AI agent that turns a plain-language product description and a few screenshots into a ready-to-share MP4: it writes the script, records the voiceover and renders the video — no editor, no timeline.
+DemoVox is an AI agent that turns a plain-language product description and a few screenshots into a ready-to-share MP4. Claude writes the script, ElevenLabs records the voiceover, and [Remotion](https://github.com/remotion-dev/remotion) renders the video. No editor, no timeline.
 
-It runs **entirely in your browser with your own API keys**. There is no backend: nobody else can spend your credits, and your keys, screenshots and videos never reach a DemoVox server, because there isn't one.
+**What you need:** an Anthropic API key and an ElevenLabs API key. You paste them into DemoVox and it runs entirely in your browser:
 
-> **Personal demo project.** DemoVox is a non-commercial proof of concept I built to explore AI agents and programmatic video. It is not a product and has no support or roadmap.
+- **You only pay for what you use**, billed directly by Anthropic and ElevenLabs to your own accounts.
+- **Your keys stay with you.** They go only to Anthropic and ElevenLabs, and by default are forgotten when you close the tab.
+- **Your files are not uploaded anywhere else.** Screenshots go only to Anthropic so Claude can see them, and the finished video never leaves your machine. There is no DemoVox server.
+
+> **Personal demo project.** DemoVox is a free, non-commercial proof of concept. Feel free to try it, fork it and learn from it, but expect rough edges: there is no support or roadmap.
 
 [![CI](https://github.com/san97o/demovox/actions/workflows/ci.yml/badge.svg)](https://github.com/san97o/demovox/actions/workflows/ci.yml)
 ![Next.js](https://img.shields.io/badge/Next.js-16-black)
